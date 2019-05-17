@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <title id="title"></title>
+    <link id="favicon" rel="shortcut icon" type="image/png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:900" type="text/css" />
+    <link rel="stylesheet" href="css/stil_lacivert.css" type="text/css" />
+    <link rel="stylesheet" href="css/stil_yeni.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/announcement.js"></script>
+</head>
+
+<body>
+    <div class="slider_alti_zemin orta_bolum">
+        <div id="marketslider" class="carousel-fade carousel slide" data-interval="10000" data-ride="carousel">
+            <video id="video" style="width: 107%;" autoplay="autoplay" muted="muted" loop="loop">
+            </video>
+        </div>
+    </div>
+    </div>
+
+    <!-- SAG BOLUM -->
+    <div class="sag_bolum_zemin sag_bolum">
+
+        <!-- CIZGI -->
+        <p class="sagbolum_ust_cizgi"></p>
+
+        <div class="sag_tarih_saat_kutu">
+            <img id="uni_logo" class="orta_logo" />
+        </div>
+
+        <!-- <p class="sagbolum_ust_cizgi"></p> -->
+
+        <!-- SAAT VE TARIH -->
+        <div class="sag_tarih_saat_kutu">
+            <p id="tarih" class="sag_tarih_gun"></p>
+            <p id="gun" class="sag_tarih_gun"></p>
+            <div id="saat" class="sag_saat"></div>
+        </div>
+
+        <p class="sagbolum_ust_cizgi"></p>
+
+        <div class="sag_bosluk">
+            <div class="carousel slide" data-interval="7000" data-ride="carousel">
+                <div id="class_slide" class="carousel-inner">
+                </div>
+            </div>
+        </div>
+
+        <p class="sagbolum_ust_cizgi"></p>
+
+        <!-- ETKINLIKLER SLIDE -->
+        <div class="sag_bosluk">
+            <div class="carousel slide" data-interval="6000" data-ride="carousel">
+                <div id="etkinlik_slide" class="carousel-inner">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ALT KAYAN YAZI -->
+    <div class="alt_endis">
+        <div class="alt_kayanlar">
+            <div class="duyuruzemin duyuru_kutu">
+                <img src="https://www.duyurutv.com/temp/dosyalar/canliizle/png/duyurubaslik.png" class="duyuru_icon">
+                <marquee id="kayan_yazi_duyuru" scrollamount="16" direction="left" class="duyuru_yazi">
+                </marquee>
+            </div>
+        </div>
+
+        <div class="havadurumu_zemin havadurumu_kutu">
+            <div class="carousel-inner">
+                <div class='item active'>
+                    <img id="hava_durumu_icon" class="havadurumu_icon" />
+                    <p id="hava_durumu_sehir" class="havadurumu_yer"></p>
+                    <p id="hava_durumu_derece" class="havadurumu_derece"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

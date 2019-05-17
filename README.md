@@ -1,2 +1,2 @@
 # Announcement-Screen
-Consumes Announcement-REST-Api and serves some informations to the users
+Consumes Announcement-REST-API and serves informations to the users

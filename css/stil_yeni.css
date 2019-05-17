@@ -1,0 +1,726 @@
+html {
+    height: 100%;
+    overflow: hidden;
+}
+ 
+#myContent {
+    height: 100%;
+}
+/* end hide */
+
+/*video wrapper*/
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 5%;
+    height: 0;
+}
+
+    .videoWrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .videoWrapper video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+/*video wrapper*/
+
+/*slider*/
+
+.fon {
+    height: 100%;
+    width: 100%;
+}
+
+.fon_sayfa_baslik {
+    text-align: right;
+    width: 85%;
+    position: absolute;
+    top: 11%;
+    right: 0px;
+    padding-right: 3%;
+    font-size: 2.3vw
+}
+
+.orta_logo {
+    text-align: left;
+    padding-left: 0.3%;
+    padding-top: 0.3%;
+    width: 11%;
+    filter: drop-shadow(3px 3px 3px #000);
+}
+
+.orta_bolum {
+    width: 75%;
+    height: 900px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    float: none;
+}
+.orta_bolum80 {
+    width: 80%;
+    height: 900px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+/*ilkekran*/
+
+.ilkekran_yazi_kutu {
+    text-align: center;
+    position: absolute;
+    padding-left: 20%;
+    top: 15%;
+    width: 100%;
+}
+
+.ilkekran_yazi {
+    font-size: 3.8vw;
+    text-align: center;
+}
+/*ilkekran*/
+
+
+/*resim_galeri*/
+.galeri_resim {
+    width: 100%;
+}
+
+.galeri_yazi {
+    position: absolute;
+    font-size: 3vw;
+    padding-left: 2%;
+    top: 83%;
+    width: 97%;
+}
+/*resim_galeri*/
+
+/*tarihtebugun*/
+.tarihtebugun_resim {
+    text-align: left;
+    width: 28%;
+    position: absolute;
+    padding-left: 1%;
+    top: 23%;
+}
+
+.tarihtebugun_kutu {
+    font-size: 1.7vw;
+    text-align: left;
+    position: absolute;
+    padding-left: 30%;
+    top: 20%;
+}
+
+.tarihtebugun_yazi {
+    float: none;
+}
+/*tarihtebugun*/
+
+/*bgvh*/
+.bgvh_resim {
+    padding-left: 4%;
+    top: 25%;
+    position: absolute;
+    width: 42%;
+}
+
+.bgvh_yazi_kutu {
+    text-align: center;
+    position: absolute;
+    margin-left: 45%;
+    width: 55%;
+    top: 25%;
+}
+
+.bgvh_yazi_tarih {
+    float: none;
+    font-size: 3vw;
+}
+
+.bgvh_yazi_adi {
+    font-size: 4vw;
+    float: none;
+    margin-top: 15%;
+}
+/*bgvh*/
+
+
+/*kadromuz*/
+.kadromuz_kutu {
+    position: absolute;
+    width: 100%;
+    top: 18%;
+    left: 0px;
+    float: inherit;
+    text-align: center;
+}
+
+.kadromuz_birli {
+    text-align: center;
+    font-size: 1.8vw;
+    float: left;
+    position: relative;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.kadromuz_ikili {
+    text-align: center;
+    font-size: 1.8vw;
+    float: left;
+    position: relative;
+    width: 30%;
+    margin-left: 13.3%;
+}
+
+.kadromuz_uclu {
+    text-align: center;
+    font-size: 1.8vw;
+    float: left;
+    position: relative;
+    width: 30%;
+    margin-left: 3%;
+}
+
+.kadromuz_resim {
+    width: 89%;
+    border-radius: 5%;
+    border-color: lightgray;
+    border-width: 8px;
+    border-style: solid;
+    margin-bottom: 2%;
+}
+/*kadromuz*/ /**/
+
+/*günün sözü*/
+.gununsozu_resim {
+    padding-left: 4%;
+    top: 25%;
+    position: absolute;
+    width: 33%;
+}
+
+.gunusozu_kutu {
+    text-align: center;
+    position: absolute;
+    padding-left: 40%;
+    top: 25%;
+}
+
+.gununsozu_yazi {
+    float: none;
+    text-align: left;
+    font-size: 2.2vw;
+}
+
+.gununsozu_soyleyen {
+    float: none;
+    font-size: 2.7vw;
+    text-align: right;
+    padding-right: 3%;
+}
+/*günün sözü*/
+
+/*ders programı*/
+.dersprogrami_kutu {
+    text-align: center;
+    position: absolute;
+    padding-left: 0.5%;
+    top: 23%;
+}
+
+.dersprogrami_tablo_basliksatiri {
+    border-bottom-style: double;
+    border-color: #FFFFFF;
+    text-align: center;
+}
+
+.dersprogrami_tablo_satir {
+    border-bottom-style: double;
+    border-color: #FFFFFF;
+    height: 50px;
+}
+
+.dersprogrami_table {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    width: 99%;
+    height: 90%;
+}
+
+/*ders programı*/
+
+/*resimli modül*/
+.resimlimmodul_resim {
+    text-align: left;
+    width: 40%;
+    position: absolute;
+    margin-left: 5%;
+    top: 25%;
+    border-radius: 5%;
+    border-color: lightgray;
+    border-width: 8px;
+    border-style: solid;
+}
+
+.resimlimodul_yazi {
+    font-size: 2.5vw;
+    text-align: center;
+    position: absolute;
+    padding-left: 48%;
+    top: 25%;
+    float: left;
+}
+/*resimli modül*/
+
+/*yönetici mesajı*/
+.yoneticimesaji_resim {
+    text-align: left;
+    width: 30%;
+    position: absolute;
+    padding-left: 5%;
+    top: 25%;
+    filter: drop-shadow(20px 15px 20px #000);
+}
+
+.yoneticimesaji_resim_yazi {
+    text-align: left;
+    position: absolute;
+    padding-left: 5%;
+    width: 35%;
+    top: 80%;
+    font-size: 2.5vw
+}
+
+.yoneticimesaji_yazi {
+    text-align: center;
+    position: absolute;
+    padding-left: 40%;
+    padding-right: 5%;
+    top: 25%;
+    float: none;
+}
+/*yönetici mesajı*/
+
+/*basarı modülü*/
+.basarimodulu_resim {
+    text-align: left;
+    position: absolute;
+    margin-left: 55%;
+    top: 20%;
+    width: 43%;
+    border-radius: 10%;
+    border-color: yellow;
+    border-width: 13px;
+    border-style: solid;
+}
+
+.basarimodulu_kutu {
+    text-align: left;
+    position: absolute;
+    margin-left: 10%;
+    width: 40%;
+    top: 25%;
+    float: none;
+}
+
+.basarimodulu_baslik {
+    font-size: 3vw;
+    float: none;
+}
+
+.basarimodulu_aciklama {
+    font-size: 3vw;
+    text-align: right;
+    float: none;
+}
+
+.basarimodulu_yazi {
+    font-size: 2vw;
+    float: none;
+}
+/*basarı modülü*/
+/*dogumgunu*/
+.dogumgunu_resim {
+    width: 45%;
+    text-align: left;
+    position: absolute;
+    margin-left: 55%;
+    top: 20%;
+}
+
+.dogumgunu_kutu {
+    text-align: center;
+    position: absolute;
+    padding-left: 5%;
+    width: 50%;
+    top: 25%;
+    float: none;
+}
+
+.dogumgunu_baslik {
+    float: none;
+    text-align: left;
+    font-size: 3.5vw;
+    color: red
+}
+
+.dogumgunu_aciklama {
+    float: none;
+    text-align: right;
+    font-size: 3.5vw;
+    color: red
+}
+
+.dogumgunu_mesaj {
+    float: none;
+    text-align: left;
+    font-size: 3vw
+}
+
+.dogumgunu_resim_ogr {
+    width: 35%;
+    text-align: left;
+    position: absolute;
+    margin-left: 60%;
+    top: 20%;
+    border-radius: 5%;
+    border-color: white;
+    border-width: 8px;
+    border-style: solid;
+}
+/*dogumgunu*/
+
+/*bilgi bankası*/
+.bilgibankasi_resim {
+    text-align: left;
+    position: absolute;
+    width: 45%;
+    margin-left: 50%;
+    top: 28%;
+    /*-webkit-filter: drop-shadow(20px 15px 20px #000);*/
+    filter: drop-shadow(0px 15px 20px #000);
+}
+
+.bilgibankasi_baslik {
+    font-size: 3vw;
+    text-align: center;
+    width: 100%;
+    color: yellow;
+    position: absolute;
+    top: 17%;
+}
+
+.bilgibankasi_aciklama {
+    font-size: 2.3vw;
+    text-align: right;
+    position: absolute;
+    padding-left: 5%;
+    top: 28%;
+    width: 44%
+}
+/*bilgi bankası*/
+
+.e_galeri {
+    position: absolute;
+    right: 0px;
+    height: 900px;
+    width: 40%;
+}
+.e_galeri_resim {
+    height: 100%;
+    width: 100%
+}
+.e_galeri_baslik {
+    color: red;
+    font-size: 4vw;
+    float: none;
+}
+.e_galeri_yazi {
+    float: none;
+
+}
+.e_galeri_kutu {
+    text-align: right;
+    width: 100%;
+    padding-right: 5%;
+    font-size: 2.5vw
+}
+
+
+/*slider*/
+
+
+/*sağ bölüm*/
+.sag_bolum {
+    width: 25%;
+    height: 900px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+.sag_bolum20 {
+    width: 20%;
+    height: 900px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.sag_bosluk {
+    padding-top: 2%;
+}
+
+.sag_baslik {
+    width: 100%;
+    padding: 0.5%;
+    font-size: 2vw;
+    margin-bottom: 1%;
+}
+
+.sag_icerik_orta {
+    width: 99%;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.sag_icerik_kucuk {
+    width: 99%;
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+.sag_icerik_buyuk {
+    width: 99%;
+    font-size: 1.7vw;
+    text-align: center;
+}
+
+.sagbolum_ust_cizgi {
+    text-align: center;
+    background: rgb(37,85,129); /* Old browsers */
+    background: -moz-linear-gradient(left,rgba(0,0,0,0) 0%, rgba(255,0,0,1) 20%, rgba(255,0,0,1) 10%, rgba(255,0,0,1) 80%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(255,0,0,1) 20%,rgba(255,0,0,1) 10%,rgba(255,0,0,1) 80%,rgba(0,0,0,0)) 100%; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(255,0,0,1) 20%,rgba(255,0,0,1) 10%,rgba(255,0,0,1) 80%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#255581', endColorstr='#255581',GradientType=1 ); /* IE6-9 */
+    width: 100%;
+    padding: 0.5%;
+}
+
+
+.sag_tarih_saat_kutu {
+    width: 100%;
+    font-weight: bold;
+}
+
+.sag_tarih_gun {
+    text-align: center;
+    float: none;
+    font-size: 1.9vw;
+}
+
+.sag_saat {
+    text-align: center;
+    text-shadow: 2px 2px 3px #000;
+}
+/*sağ bölüm*/
+
+
+
+/*alt bölüm*/
+.alt_endis {
+    background-color: yellow;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}
+
+.alt_kayanlar {
+    width: 86%;
+    float: none;
+}
+
+.kayandersprogrami_kutu {
+    width: 100%;
+    position: relative;
+    top: 0px;
+}
+
+.kayandersprogrami_baslik {
+    z-index: 2;
+    background-color: black;
+    position: absolute;
+    top: 4%;
+    color: red;
+    width: 8%;
+    font-size: 1.7vw;
+    line-height: 90%;
+    text-align: center;
+}
+
+.kayandersprogrami_yazi {
+    font-size: 2.3vw;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.zile_kalan_sure_kutu {
+    text-align: center;
+    font-size: 2.5vw;
+    z-index: 3;
+    vertical-align: middle;
+    position: absolute;
+    right: 0px;
+    width: 25%;
+    height: 100%;
+}
+
+.zile_kalan_sure_baslik {
+    margin-left: 5%;
+    float: none;
+    font-size: 1.4vw;
+    vertical-align: middle;
+}
+
+.zile_kalan_sure {
+    text-align: center;
+    margin-top: -2%;
+    text-shadow: 2px 2px 3px #000;
+    font-size: 1.6vw;
+    color: red;
+}
+.sayac_universite {
+    text-align: center;
+    margin-top: -2%;
+    text-shadow: 2px 2px 3px #000;
+    font-size: 1.6vw;
+    color: red;
+    width:100%;
+}
+.duyuruzemin {
+    background-color: yellow;
+    min-height: 6%;
+    vertical-align: middle;
+}
+
+.duyuru_kutu {
+    position: relative;
+}
+
+.duyuru_icon {
+    z-index: 2;
+    position: absolute;
+    height: 100%
+}
+
+.duyuru_yazi {
+    font-size: 2.5vw;
+    color: black;
+}
+
+
+.haberbandizemin {
+    background-color: red;
+    min-height: 5%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.haberbandi_kutu {
+    position: relative;
+}
+
+.haberbandi_yazi {
+    font-size: 2vw;
+    color: white;
+    text-shadow: 2px 2px 3px #000;
+    height: 100%;
+}
+
+.haberbandi_icon {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    max-height: 100%
+}
+
+.haberbandi_dtlogo {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+    max-height: 100%
+}
+
+.havadurumu_kutu {
+    width: 12%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.havadurumu_icon {
+    width: 30%;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.havadurumu_yer {
+    position: absolute;
+    bottom: -18%;
+    font-size: 1.4vw;
+    right: 6%;
+    color: red;
+}
+
+.havadurumu_derece {
+    position: absolute;
+    bottom: 15%;
+    font-size: 3vw;
+    right: 3%
+}
+
+
+
+
+.havadurumu_gun_2 {
+    color: yellow;
+    float: none;
+   bottom:80%;
+   position:absolute;
+}
+.havadurumu_icon_2 {
+    width: 40%;   
+    margin-bottom:0px;
+    margin-top:8%;
+    float: none;
+}
+.havadurumu_yer_2 {
+    position: absolute;
+    bottom:-1%;
+    font-size: 1.7vw;
+    right: 3%;
+    color: red;
+}
+
+.havadurumu_derece_2 {
+    position: absolute;
+    bottom: 20%;
+    font-size: 4vw;
+    right: 3%
+}
+/*alt bölüm*/
